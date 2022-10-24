@@ -5,7 +5,7 @@ import com.Online_School.Materials;
 import com.Online_School.Persons;
 import com.Online_School.Students;
 
-public class Course {
+public class Main {
     public static void main (String[] args)
     {
         Lectures result = new Lectures();
@@ -33,5 +33,7 @@ public class Course {
         twoA.StudentsInfoO();
         threeA.StudentsInfoO();
         Materials todaysWorkA = new Materials("Basketball match", "30 push-up, 40 squats");
-        todaysWorkA.resultOfClass();}
+        todaysWorkA.resultOfClass();
+        one.AmountOFStudents();
+    }
 }

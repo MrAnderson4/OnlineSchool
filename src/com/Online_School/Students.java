@@ -5,7 +5,7 @@ public class Students {
     public String NameOfStudent;
     public String SurnameOfStudent;
     int AgeOfStudent;
-    int ID = 0;
+    public static int ID = 0;
     public Students (String name, String surname, int age) {
         NameOfStudent = name;
         SurnameOfStudent = surname;
@@ -20,5 +20,9 @@ public class Students {
     public void StudentsInfoO ()
     {
         System.out.println(NameOfStudent + " " + SurnameOfStudent + ", " + AgeOfStudent + " years old ");
+    }
+    public void AmountOFStudents ()
+    {
+        System.out.println("The general amount of students on curses are: " + ID);
     }
 }
