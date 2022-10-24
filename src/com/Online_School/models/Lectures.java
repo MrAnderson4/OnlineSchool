@@ -1,4 +1,4 @@
-package com.Online_School;
+package com.Online_School.models;
 
 public class Lectures
     {
@@ -9,11 +9,6 @@ public class Lectures
         public void resultC () {System.out.println("The name of the course is: " + CHEMISTRY);}
         public void resultA () {System.out.println("The name of the course is: " + ATHLETICS);}
 
-
-        Lectures gold = new Lectures();
-        Lectures silver = new Lectures();
-
-        Lectures bronze = new Lectures();
 
 
     }

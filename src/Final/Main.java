@@ -1,9 +1,9 @@
 package Final;
 
-import com.Online_School.Lectures;
-import com.Online_School.Materials;
-import com.Online_School.Persons;
-import com.Online_School.Students;
+import com.Online_School.models.Lectures;
+import com.Online_School.models.Materials;
+import com.Online_School.models.Persons;
+import com.Online_School.models.Students;
 
 public class Main {
     public static void main (String[] args)
@@ -34,6 +34,5 @@ public class Main {
         threeA.StudentsInfoO();
         Materials todaysWorkA = new Materials("Basketball match", "30 push-up, 40 squats");
         todaysWorkA.resultOfClass();
-        one.AmountOFStudents();
     }
 }
