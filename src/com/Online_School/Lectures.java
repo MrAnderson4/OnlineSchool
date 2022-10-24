@@ -9,7 +9,7 @@ public class Lectures
         public void resultC () {System.out.println("The name of the course is: " + CHEMISTRY);}
         public void resultA () {System.out.println("The name of the course is: " + ATHLETICS);}
 
-
+        Lectures bronze = new Lectures();
 
     }
 
