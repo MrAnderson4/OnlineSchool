@@ -34,6 +34,4 @@ public class Main {
         threeA.StudentsInfoO();
         Materials todaysWorkA = new Materials("Basketball match", "30 push-up, 40 squats");
         todaysWorkA.resultOfClass();
-        one.amountOfStudents();
-    }
-}
+        one.amountOfStudents();}}
