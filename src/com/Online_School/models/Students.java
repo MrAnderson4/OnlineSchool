@@ -27,4 +27,5 @@ public class Students {
     public void amountOfStudents() {
         System.out.println("General amount of students today: " + ID + " persons.");
     }
+
 }
